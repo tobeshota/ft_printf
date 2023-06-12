@@ -6,15 +6,14 @@
 /*   By: toshota <toshota@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/10 21:17:57 by tobeshota         #+#    #+#             */
-/*   Updated: 2023/06/11 12:45:01 by toshota          ###   ########.fr       */
+/*   Updated: 2023/06/12 18:45:41 by toshota          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 #include "libft/libft.h"
 
-void	get_nbrlen_base(unsigned long long ullnb, char *base,
-		t_flags *flags)
+void	get_nbrlen_base(unsigned long long ullnb, char *base, t_flags *flags)
 {
 	unsigned long long	base_len;
 
